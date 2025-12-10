@@ -1,0 +1,24 @@
+<?php
+
+const SAS_NCO = 5;
+const SAS_SUB_SAMPLE_ID = 502;
+const SAS_APP_THUMB_NAIL = 'app_thumb_nail';
+
+if(!defined('ITEM_NOT_MATERIAL_SCORE_OVERRIDE')){
+    define("ITEM_NOT_MATERIAL_SCORE_OVERRIDE", 0);
+}
+if(!defined('ITEM_IS_MATERIAL_SCORE_OVERRIDE')){
+    define("ITEM_IS_MATERIAL_SCORE_OVERRIDE", 1);
+}
+
+if(!defined('SAMPLE_TYPE_ACCESSIBLE_ORIGINAL')){
+    define("SAMPLE_TYPE_ACCESSIBLE_ORIGINAL", 1);
+}
+
+if(!defined('SAMPLE_TYPE_ACCESSIBLE_PRESUMPTION')){
+    define("SAMPLE_TYPE_ACCESSIBLE_PRESUMPTION", 2);
+}
+
+if(!defined('SAMPLE_TYPE_INACCESSIBLE')){
+    define("SAMPLE_TYPE_INACCESSIBLE", 3);
+}

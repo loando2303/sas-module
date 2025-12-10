@@ -1,0 +1,23 @@
+{
+    "name": "shine/sas",
+    "description": "",
+    "authors": [{
+        "name": "Shine Dev",
+        "email": "shinedev@gmail.com"
+    }],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\SAS\\Providers\\SASServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SAS\\": ""
+        }
+    }
+}
